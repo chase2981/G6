@@ -51,9 +51,9 @@ export {
   TimeBar,
   ImageMinimap,
   EdgeFilterLens,
-  Arrow,
-  Marker,
-  Shape,
+  // Arrow,
+  // Marker,
+  // Shape,
   // 对外暴露 G-Base 的几个类型定义
   ICanvas,
   IGroup,
@@ -83,7 +83,7 @@ export default {
   ImageMinimap,
   EdgeFilterLens,
   Algorithm,
-  Arrow,
-  Marker,
-  Shape
+  // Arrow,
+  // Marker,
+  // Shape
 };

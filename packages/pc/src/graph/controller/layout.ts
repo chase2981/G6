@@ -1,5 +1,8 @@
 import { AbstractLayout } from '@antv/g6-core';
-import { Layout, LayoutWorker, WebWorker, LAYOUT_MESSAGE } from '@antv/layout';
+import { Layout, LAYOUT_MESSAGE } from '@antv/layout';
+// @ts-ignore
+const layoutWorkerObj = require('@antv/layout/dist/index.worker.js');
+const { LayoutWorker, WebWorker } = layoutWorkerObj;
 
 import { gpuDetector } from '../../util/gpu';
 import { mix } from '@antv/util';
